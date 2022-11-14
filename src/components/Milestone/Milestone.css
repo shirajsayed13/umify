@@ -1,0 +1,25 @@
+.milestone__container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0 40px 0;
+}
+.btn__milestone {
+    background: #FFB097;
+    color: white;
+    height: 35px;
+    width: 140px;
+    border-radius: 8px;
+    border: none;
+}
+.input__field {
+    background: #f9f9f9;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 40px;
+}
+.input__field:nth-child(4) {
+    flex-flow: row-reverse;
+    color: lightgrey;
+}

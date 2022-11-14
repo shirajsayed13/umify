@@ -1,0 +1,68 @@
+:root {
+    --blue-color: #74a6ee;
+    --border-radius-size: 8px;
+    font-family: roboto;
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+.sublayout {
+    margin-left: 100px;
+}
+
+.content {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subcontent {
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    max-width: 80%;
+    margin: 0px;
+    height: 1px;
+    background-color: #74a6ee;
+}
+
+.input__field {
+    background: #f9f9f9;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 30px;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+.total__payment {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.btn__controller {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    border-color: var(--blue-color);
+    color: var(--blue-color);
+    background-color: white;
+    border-radius: var(--border-radius-size);
+    margin: 10px;
+}
+
+.btn:nth-child(2) {
+    border-color: transparent;
+    color: white;
+    background-color: var(--blue-color);
+}
